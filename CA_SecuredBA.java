@@ -1,11 +1,11 @@
 //import java.util.Scanner;
+public class CA_SecuredBA {
 
-public class CA_BankAcount {
 int AC = 0;
-float Bal = 0.0f;
-String CustName = "John";
-String eMail = "jhxxxxon@gmail.com";
-String Phone = "(xxx) xxx-xxxx";
+private float Bal = 0.0f;
+private String CustName = "John";
+private String eMail = "jhxxxxon@gmail.com";
+private String Phone = "(xxx) xxx-xxxx";
 
 public void CA_BankAccount() {
 	this.AC = 123456789;	
@@ -20,6 +20,10 @@ public void CA_BankAccount(AC) {
 	to use account number as primary key to access db.
 }
 */
+
+// Getter and Setter methods
+
+
 
 public void deposit(float amount) {
 	float Bal1 = Bal + amount; 
