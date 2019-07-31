@@ -9,7 +9,7 @@ public class CA_Banking1 {
 		// TODO Auto-generated method stub
 
 		CA_BankAccount1 /* class */ ac1 = new CA_BankAccount1() /* constructor */;  
-		//ac1.CA_BankAccount1();   // for default customer account and details, constructor is initialized
+		ac1.CA_BankAccount1();   // for default customer account and details, constructor is initialized
 		// ac1.CA_BankAccount1(AC);   for user input on Customer account number. want to use this as primary key for accessing db
 
 		
